@@ -24,7 +24,7 @@
           <qrcode :value="qrData1" :size="200"></qrcode>
         </div>
       </v-col>
-      
+
       <v-col class="bg-blue pr-16">
         <h1 class="text-black">Agrolito | Cartão de Visitas</h1>
         <h3>https://agrolito.com.br/?utm_campaign=qr-hibrit&utm_source=cartao&utm_medium=qrcode</h3>
@@ -40,7 +40,7 @@
           <qrcode :value="qrData2" :size="200"></qrcode>
         </div>
       </v-col>
-      
+
       <v-col class="bg-blue pr-16">
         <h1 class="text-black">Agrolito | Saco 25Kg</h1>
         <h3>https://agrolito.com.br/?utm_campaign=qr-hibrit&utm_source=saco-25kg&utm_medium=qrcode</h3>
@@ -56,7 +56,7 @@
           <qrcode :value="qrData3" :size="200"></qrcode>
         </div>
       </v-col>
-      
+
       <v-col class="bg-blue pr-16">
         <h1 class="text-black">Agrolito | Ficha Técnica</h1>
         <h3>https://agrolito.com.br/?utm_campaign=qr-hibrit&utm_source=ficha-tecnica&utm_medium=qrcode</h3>
