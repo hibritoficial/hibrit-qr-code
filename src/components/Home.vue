@@ -4,15 +4,15 @@
   <div class="mt-10">
     <v-row>
       <v-col class="bg-blue">
-        <div class="ml-16">
+        <div class="ml-16 pl-16">
           <qrcode :value="qrData" :size="200"></qrcode>
         </div>
       </v-col>
 
-      <v-col class="bg-blue">
+      <v-col class="bg-blue pr-16">
         <h1 class="text-black">Site Agrolito</h1>
-        <h1>https://agrolito.com.br/</h1>
-        <v-btn class="text-black mt-1" @click="downloadQRCode">Baixar QR Code</v-btn>
+        <h2>https://agrolito.com.br/</h2>
+        <v-btn class="text-black mt-2" @click="downloadQRCode">Baixar QR Code</v-btn>
       </v-col>
     </v-row>
   </div>
@@ -20,15 +20,15 @@
   <div class="mt-10">
     <v-row>
       <v-col class="bg-blue">
-        <div class="ml-16">
+        <div class="ml-16 pl-16">
           <qrcode :value="qrData1" :size="200"></qrcode>
         </div>
       </v-col>
 
-      <v-col class="bg-blue">
+      <v-col class="bg-blue pr-16">
         <h1 class="text-black">Site Udemy</h1>
-        <h1>https://www.udemy.com/</h1>
-        <v-btn class="text-black mt-1" @click="downloadQRCode1">Baixar QR Code</v-btn>
+        <h2>https://www.udemy.com/</h2>
+        <v-btn class="text-black mt-2" @click="downloadQRCode1">Baixar QR Code</v-btn>
       </v-col>
     </v-row>
   </div>
