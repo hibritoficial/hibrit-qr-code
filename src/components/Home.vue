@@ -1,4 +1,4 @@
-<template> 
+<template>
   <h1 class="d-flex justify-center align-center mt-10">Gerador de QR Codes Hibrit</h1>
 
   <div class="mt-10">
