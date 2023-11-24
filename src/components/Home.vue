@@ -104,7 +104,7 @@ const downloadQRCode1 = async () => {
 
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'QRCode-Udemy.png';
+    link.download = 'QRCode-Agrolito-Cartão-de-visitas.png';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -120,7 +120,7 @@ const downloadQRCode2 = async () => {
 
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'QRCode-Udemy.png';
+    link.download = 'QRCode-Agrolito-Saco-25kg.png';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -136,7 +136,7 @@ const downloadQRCode3 = async () => {
 
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'QRCode-Udemy.png';
+    link.download = 'QRCode-Agrolito-Ficha-Tecnica.png';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
