@@ -37,7 +37,7 @@
     <v-row>
       <v-col class="bg-blue">
         <div class="ml-16 pl-16">
-          <qrcode :value="qrData1" :size="200"></qrcode>
+          <qrcode :value="qrData2" :size="200"></qrcode>
         </div>
       </v-col>
       
@@ -53,7 +53,7 @@
     <v-row>
       <v-col class="bg-blue">
         <div class="ml-16 pl-16">
-          <qrcode :value="qrData1" :size="200"></qrcode>
+          <qrcode :value="qrData3" :size="200"></qrcode>
         </div>
       </v-col>
       
